@@ -20,7 +20,7 @@ How the script works:
 
 -The features labels are input from features.txt. The indices containing the mean() or the std() measures are stored in a vector (indices), and the the features corresponding tto those indices are stored in a vector(features).
 
--The test and train features are concatenated and all columns are removed that do not have an index in the vector indices;only the columns with a mean() or std() remain.
+-The test and train features are concatenated and all columns are removed that do not have an index in the indices vector; only the columns with a mean() or std() remain.
 
 -The names from the features vector are assigned to the columns in the new data set.
 
