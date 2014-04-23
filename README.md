@@ -18,7 +18,7 @@ How the script works:
 
 -The subject numbers, activity labels, and features for both the training and testing data set are read into dataframes.
 
--The features labels are input from features.txt,the indices containing the mean() or the std() measures are stored ina vector (indices), and the the features corresponding tto those indices are stored in a vector(features).
+-The features labels are input from features.txt. The indices containing the mean() or the std() measures are stored in a vector (indices), and the the features corresponding tto those indices are stored in a vector(features).
 
 -The test and train features are concatenated and all columns are removed that do not have an index in the vector indices;only the columns with a mean() or std() remain.
 
